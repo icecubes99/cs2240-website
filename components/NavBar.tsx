@@ -10,17 +10,17 @@ const NavBar = () => {
       </div>
 
       <div>
-        <ul className="list-none m-0 p-0 space-x-20 text-3xl ">
-          <li className="float-left text-white hover:text-blue-500 font-roboto_flex">
+        <ul className="list-none m-0 p-0 space-x-20 text-3xl">
+          <li className="float-left text-white hover:text-red-500">
             <NavBarTextLinks text="AMC" text2="https://www.amc.com" />
           </li>
-          <li className="float-left text-white">
+          <li className="float-left text-white hover:text-red-500">
             <NavBarTextLinks
               text="Sony Pictures"
               text2="https://www.sonypictures.com"
             />
           </li>
-          <li className="float-left text-white">
+          <li className="float-left text-white hover:text-red-500">
             <NavBarTextLinks
               text="Watch Now"
               text2="https://www.netflix.com/ph-en/title/80021955"

@@ -9,3 +9,7 @@
 .roboto_flex {
   font-family: "Roboto Flex", serif;
 }
+
+.ibm {
+  font-family: var(--font-ibm-plex-sans);
+}
