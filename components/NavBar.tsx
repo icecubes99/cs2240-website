@@ -10,8 +10,8 @@ const NavBar = () => {
       </div>
 
       <div>
-        <ul className="list-none m-0 p-0 space-x-20">
-          <li className="float-left text-white">
+        <ul className="list-none m-0 p-0 space-x-20 text-3xl ">
+          <li className="float-left text-white hover:text-blue-500 font-roboto_flex">
             <NavBarTextLinks text="AMC" text2="https://www.amc.com" />
           </li>
           <li className="float-left text-white">

@@ -1,3 +1,4 @@
+import { Raleway } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -18,6 +19,14 @@ const config: Config = {
         mike: "url('/mike-ehrmentraut.jpg')",
         nacho: "url('/ignacio-vargas.jpg')",
         saul: "url('/jimmy-mcgill.jpg')",
+      },
+      fontFamily: {
+        raleway: ["var(--font-raleway)"],
+        roboto_flex: ["var(--font-roboto-flex)"],
+        inter: ["var(--font-inter)"],
+      },
+      colors: {
+        hero: "#FFEEB9",
       },
     },
   },
