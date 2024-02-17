@@ -12,6 +12,12 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        jimmy: "url('/hero.jpg')",
+        howard: "url('/howard-hamlin.jpg')",
+        kim: "url('/kim-wexler.jpg')",
+        mike: "url('/mike-ehrmentraut.jpg')",
+        nacho: "url('/ignacio-vargas.jpg')",
+        saul: "url('/jimmy-mcgill.jpg')",
       },
     },
   },
