@@ -3,17 +3,18 @@ import HeroLearnMoreLinks from "./HeroLearnMoreLinks";
 
 const HeroSixth = () => {
   return (
-    <div className="bg-howard bg-cover bg-no-repeat w-screen h-screen flex flex-col p-48 pt-72 pl-52 gap-y-10 ">
-      <div className="font-bold text-6xl drop-shadow-xl  text-black ">
+    <div className="bg-howard bg-cover bg-no-repeat w-screen lg:h-screen h-full flex flex-wrap flex-col p-48 pt-80 pl-52 gap-y-10 text-black">
+      <div className="flex flex-grow w-auto h-auto border-red-200 md:hidden justify-center ">
+        <img src="/howard-hamlin.png" alt="" />
+      </div>
+      <div className="font-bold lg:text-6xl md:text-4xl sm:text-2xl text-xl drop-shadow-xl">
         HOWARD HAMLIN
       </div>
-      <h1 className="raleway text-3xl drop-shadow-xl font-normal text-black">
-        Howard Hamlin is a senior partner at Hamlin,
-        <br /> Hamlin & McGill, a law firm he co-founded with
-        <br /> Chuck McGill. He is also the brother of Chuck
-        <br /> McGill and the legal nemesis of Jimmy McGill.
-        <br /> He is portrayed by Patrick Fabian.
-        <br /> Howard is a senior partner at HHM.
+      <h1 className="raleway lg:text-3xl md:text-xl sm:text-lg text-base drop-shadow-xl text-justify sm:text-left font-normal md:whitespace-normal">
+        Howard Hamlin is a senior partner at Hamlin, Hamlin & McGill, a law firm
+        he co-founded with Chuck McGill. He is also the brother of Chuck McGill
+        and the legal nemesis of Jimmy McGill. He is portrayed by Patrick
+        Fabian. Howard is a senior partner at HHM.
       </h1>
       <HeroLearnMoreLinks text="https://breakingbad.fandom.com/wiki/Howard_Hamlin" />
     </div>

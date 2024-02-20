@@ -3,10 +3,12 @@ import NavBar from "./NavBar";
 
 const HeroFirst = () => {
   return (
-    <div className="bg-jimmy bg-cover bg-no-repeat w-screen h-screen">
+    <div className="bg-black sm:bg-jimmy bg-cover bg-no-repeat flex flex-col w-screen h-screen items-center">
       <NavBar />
-      <div className="relative top-1/4 md:top-1/2 lg:top-1/3 xl:top-1/4 flex ml-auto mr-50 justify-center mt-0 mb-0 font-roboto_flex font-bold text-2xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-hero">
-        SAUL GOODMAN
+      <div className="flex-grow flex items-center justify-center">
+        <div className="font-roboto_flex font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl text-hero">
+          SAUL GOODMAN
+        </div>
       </div>
     </div>
   );

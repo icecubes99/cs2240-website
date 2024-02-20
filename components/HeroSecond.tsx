@@ -3,21 +3,22 @@ import HeroLearnMoreLinks from "./HeroLearnMoreLinks";
 
 const HeroSecond = () => {
   return (
-    <div className="bg-saul bg-cover bg-no-repeat w-screen h-screen flex flex-col p-48 pt-80 pl-52 gap-y-10 ">
-      <div className="font-bold text-6xl drop-shadow-xl  text-white ">
-        JAMES MORGAN MCGILL
+    <div className="bg-saul bg-cover bg-no-repeat w-screen lg:h-screen h-full flex flex-wrap flex-col p-48 pt-80 pl-52 gap-y-10 text-white ">
+      <div className="flex flex-grow w-auto h-auto border-red-200 md:hidden justify-center ">
+        <img src="/jimmy-mcgill.png" alt="A picture of James Morgan Mcgill" />
       </div>
-      <h1 className="raleway text-3xl drop-shadow-xl font-normal text-white">
-        James Morgan "Jimmy" McGill, better known
-        <br /> by his professional alias and business moniker
-        <br /> Saul Goodman and later Gene Takavic, is an
-        <br /> American criminal defense lawyer, scam artist, <br />
-        and a former con artist who established <br />
-        his law practice in Albuquerque, New Mexico.
+
+      <div className="font-bold lg:text-6xl md:text-4xl sm:text-2xl text-xl drop-shadow-xl ">
+        JAMES M. MCGILL
+      </div>
+      <h1 className="raleway lg:text-3xl md:text-xl sm:text-lg text-base drop-shadow-xl text-justify sm:text-left font-normal md:whitespace-normal">
+        James Morgan "Jimmy" McGill, better known by his professional alias and
+        business moniker Saul Goodman and later Gene Takavic, is an American
+        criminal defense lawyer, scam artist, and a former con artist who
+        established his law practice in Albuquerque, New Mexico.
       </h1>
-      <div className="text-white">
-        <HeroLearnMoreLinks text="https://breakingbad.fandom.com/wiki/Jimmy_McGill" />
-      </div>
+
+      <HeroLearnMoreLinks text="https://breakingbad.fandom.com/wiki/Jimmy_McGill" />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import HeroLearnMoreLinks from "./HeroLearnMoreLinks";
 
 const HeroSeventh = () => {
   return (
-    <div className="bg-table bg-cover bg-no-repeat w-screen h-screen flex flex-col p-48 pt-72 pl-52 gap-y-10 items-center justify-center">
+    <div className="bg-table bg-cover bg-no-repeat w-screen h-screen grid place-items-center p-48 pt-72 pl-52 gap-y-10">
       <table className="table-auto w-1/2 mt-4 rounded-lg overflow-hidden shadow-lg">
         <thead className="bg-gray-700 text-white">
           <tr>
